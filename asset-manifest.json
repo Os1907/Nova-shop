@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/Nova-shop/static/css/main.da47e9d6.css",
+    "main.js": "/Nova-shop/static/js/main.2b21a32e.js",
+    "static/js/592.1ebcb85f.chunk.js": "/Nova-shop/static/js/592.1ebcb85f.chunk.js",
+    "static/media/404 Error with a broken robot-amico.png": "/Nova-shop/static/media/404 Error with a broken robot-amico.0d9b603ea9d514248163.png",
+    "static/media/Online wishes list-amico.png": "/Nova-shop/static/media/Online wishes list-amico.0cb536c63f86967b86d3.png",
+    "static/media/Untitled-1.png": "/Nova-shop/static/media/Untitled-1.7266f25f76b5810bff0d.png",
+    "static/media/shopping-cart_6493913.png": "/Nova-shop/static/media/shopping-cart_6493913.14dbc701c2650289df2f.png",
+    "static/media/true.png": "/Nova-shop/static/media/true.e275d83a3bac02bc14f0.png",
+    "static/media/noAccess.png": "/Nova-shop/static/media/noAccess.c2987dc6a830f5fde709.png",
+    "static/media/chexkout.png": "/Nova-shop/static/media/chexkout.10057b25935bbcb9f24d.png",
+    "static/media/cash.png": "/Nova-shop/static/media/cash.73e6c578b25a8d395bd4.png",
+    "static/media/slick.svg": "/Nova-shop/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/Nova-shop/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/Nova-shop/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/Nova-shop/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/Nova-shop/index.html",
+    "main.da47e9d6.css.map": "/Nova-shop/static/css/main.da47e9d6.css.map",
+    "main.2b21a32e.js.map": "/Nova-shop/static/js/main.2b21a32e.js.map",
+    "592.1ebcb85f.chunk.js.map": "/Nova-shop/static/js/592.1ebcb85f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.da47e9d6.css",
+    "static/js/main.2b21a32e.js"
+  ]
+}
