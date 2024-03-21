@@ -52,7 +52,7 @@ useEffect(()=>{
  
                 <h2 className='md:text-6xl text-xl fontColor text-center font-bold my-10 uppercase'>Your Wishlist</h2>
 
-    <div className='lg:mx-20 mx-4 grid grid-cols-12 gap-y-8 gap-x-8 mb-10'>
+    <div className='lg:mx-20 mx-4 grid grid-cols-12 lg:gap-8 gap-x-2 gap-y-5 mb-10'>
 {
   WishlistData?.data.map((dataSend) => <WishlistCard data={dataSend} key={dataSend.id}/> )
 }
