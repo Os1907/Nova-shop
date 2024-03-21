@@ -73,7 +73,7 @@ export default function CardArrival(received) {
 
                 <p className="  px-3 py-1.5 text-xs font-medium rounded-full fontColor text-center"> {received.send.brand.name} </p>
 
-                <h3 className="mt-4 lg:text-lg text-base font-medium grayColor">
+                <h3 className="mt-4 lg:text-lg text-sm md:text-base font-medium grayColor">
                {received.send.category.name}
                 </h3>
                 <div className='flex justify-between'>

@@ -59,7 +59,7 @@ export default function OneCard(received) {
               {received.send.brand.name}{" "}
             </p>
 
-            <h3 className="mt-4 lg:text-lg text-base font-medium grayColor">
+            <h3 className="mt-4 lg:text-lg text-sm md:text-base font-medium grayColor">
               {received.send.category.name}
             </h3>
             <div className="flex justify-between">

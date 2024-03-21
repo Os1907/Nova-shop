@@ -40,7 +40,7 @@ export default function ProductPage() {
     <>
       <section className='pb-14 pt-20  relative'>
 
-        <div className="lg:mx-20 mx-4 grid grid-cols-12 gap-8  ">
+        <div className="lg:mx-20 mx-4 grid grid-cols-12  lg:gap-8 gap-x-2 gap-y-5  ">
           {data ? (
             ""
           ) : (
@@ -102,7 +102,7 @@ export default function ProductPage() {
                         {item.brand.name}{" "}
                       </p>
 
-                      <h3 className="mt-4 lg:text-lg text-base font-medium grayColor text-center">
+                      <h3 className="mt-4 lg:text-lg text-sm md:text-base font-medium grayColor text-center">
                         {item.title.split("").slice(0, 17)}
                       </h3>
                       <div className="flex justify-between">
@@ -123,7 +123,7 @@ export default function ProductPage() {
                         onClick={() => {
                           addToCart(item._id);
                         }}
-                        className="block w-full rounded-xl mainColor p-4 my-5 text-sm font-semibold text-white transition hover:scale-105"
+                        className="block w-full rounded-xl  lg:p-4 p-2 lg:text-sm font-semibold text-white mainColor transition hover:border-white  hover:border-2 text-[12px]"
                       >
                         Add to Cart
                       </button>
@@ -141,7 +141,7 @@ export default function ProductPage() {
 
 
 
-        <div role="tablist" className="tabs tabs-boxed my-5 mx-20 ">
+        <div role="tablist" className="tabs tabs-boxed my-5 mx-10 bg-red-500 ">
           <button
             onClick={() => {
               setpageNumber(3);

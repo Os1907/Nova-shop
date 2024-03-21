@@ -23,7 +23,7 @@ export default function NewArrival() {
  <div className={isLoading ? ' mySpinner  md:text-6xl  text-center relative left-[50%]   my-44' : ''} ></div>
 
 
- <div className='lg:mx-20 mx-4 grid grid-cols-12 lg:gap-8 gap-2'>
+ <div className='lg:mx-20 mx-4 grid grid-cols-12 lg:gap-8 gap-x-2 gap-y-5'>
 
 
     {
