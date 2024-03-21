@@ -1,0 +1,221 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Paytone+One&display=swap');
+
+
+/* scroll style */
+body {
+    --sb-track-color: #fcaf18;
+    --sb-thumb-color: #ffffff;
+    --sb-size: 15px;
+  }
+  
+  body::-webkit-scrollbar {
+    width: var(--sb-size)
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: var(--sb-track-color);
+    border-radius: 0px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -o-border-radius: 0px;
+}
+  
+  body::-webkit-scrollbar-thumb {
+    background: var(--sb-thumb-color);
+    border-radius: 0px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -o-border-radius: 0px;
+}
+  
+  @supports not selector(::-webkit-scrollbar) {
+    body {
+      scrollbar-color: var(--sb-thumb-color)
+                       var(--sb-track-color);
+    }
+  }
+/* scroll style */
+
+*{
+    font-family: 'Poppins', sans-serif !important;
+}
+
+.mainFont{
+    font-family: 'Paytone One', sans-serif !important;
+}
+
+.mainColor{
+    background-color: #fcaf18 !important;
+}
+
+.fontColor{
+  color: #fcaf18 !important;
+}
+
+body{
+    background-color: #f8fafb !important;
+}
+h1{
+  line-height: 80%;
+}
+
+/* .grayColor{
+color: #4c4b4d !important; 
+} */
+.grayColor{
+  color: #323232 !important; 
+  }
+
+
+.grayBackground{
+  background-color: #4c4b4d !important; 
+  }
+
+
+  /* .slick-prev:before, .slick-next:before {
+    font-family: 'slick';
+    font-size: 20px;
+    line-height: 1;
+    opacity: .75;
+    color: #4c4b4d;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+} */
+.slick-prev:before, .slick-next:before {
+  font-family: 'slick';
+  font-size: 35px !important;
+  line-height: 1;
+  opacity: .75;
+  color: #fcaf18 !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+.slick-next {
+  right: 150px !important;
+  position: absolute;
+  z-index: 1312;
+}
+.slick-prev {
+  left: 150px !important;
+  position: absolute;
+  z-index: 1312;
+
+}
+.blink-1{ animation:blink-1 3s infinite both; -webkit-animation:blink-1 3s infinite both; }
+
+
+@keyframes blink-1 {
+  0%,
+  50%,
+  100% {
+    opacity: 1;
+  }
+  25%,
+  75% {
+    opacity: 0;
+  }
+}
+
+
+.myContainer{
+  width: 80% !important;
+  margin: 0px auto !important;
+
+}
+
+
+.pointer{
+  cursor: pointer !important;
+}
+
+
+
+@keyframes scaleUp {
+  0% { transform: translate(-50%, -50%) scale(0) }
+  60% , 100% { transform: translate(-50%, -50%)  scale(1)}
+}
+@keyframes pulse {
+  0% , 60% , 100%{ transform:  scale(1) }
+  80% { transform:  scale(1.2)}
+}
+
+.embla {
+  overflow: hidden;
+}
+.embla__container {
+  display: flex;
+}
+.embla__slide {
+  flex: 0 0 100%;
+  min-width: 0;
+}
+
+
+
+
+
+.myTra{
+  transition: all 0.8s !important;
+  -webkit-transition: all 0.8s !important;
+  -moz-transition: all 0.8s !important;
+  -ms-transition: all 0.8s !important;
+  -o-transition: all 0.8s !important;
+}
+
+
+
+text-whitee{
+  color:white !important ;
+}
+/* HTML: <div class="loader"></div> */
+
+
+.mySpinner {
+  width: 150px;
+  aspect-ratio: 1;
+  display: grid;
+}
+.mySpinner:before,
+.mySpinner:after {
+  content: "";
+  grid-area: 1/1;
+  border-radius: 50%;
+  background: #fcaf18;
+  -webkit-mask:repeating-linear-gradient(#000 0 10px,#0000 0 20px);
+}
+.mySpinner:after {
+  -webkit-mask:repeating-linear-gradient(#0000 0 10px,#000 0 20px);
+  animation: l36 1.5s infinite;
+}
+@keyframes l36 {
+  0%,
+  10%  {transform: rotate(0)      translate(0)}
+  35%  {transform: rotate(0)      translate(100%)}
+  66%  {transform: rotate(180deg) translate(100%)}
+  90%,
+  100% {transform: rotate(180deg) translate(0) }
+}
+
+
+
+.my-border{
+  border: #fcaf18 1px solid;
+}
+
+.my-border-bottom{
+  border-bottom: #fcaf18 1px solid;
+}
+
+.my-border-top{
+  border-top: #fcaf18 1px solid;
+}
+
+
