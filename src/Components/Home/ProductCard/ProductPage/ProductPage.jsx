@@ -141,7 +141,7 @@ export default function ProductPage() {
 
 
 
-        <div role="tablist" className="tabs tabs-boxed my-5 mx-10 bg-red-500 ">
+        <div role="tablist" className="tabs tabs-boxed my-5 mx-10 ">
           <button
             onClick={() => {
               setpageNumber(3);
