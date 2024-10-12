@@ -22,7 +22,6 @@ export default function TimerCarusol() {
 
   return (
     <>
-    {/* <div className="grid grid-flow-col gap-5 text-center auto-cols-max  mt-2 mx-10  bg-white rounded-2xl p-2"> */}
     <div className="flex  justify-between mx-5 mt-2">
   <div className="flex flex-col ite md:text-xl text-[10px]  ">
     <span className=" font-mono md:text-xl text-sm fontColor    font-semibold">
