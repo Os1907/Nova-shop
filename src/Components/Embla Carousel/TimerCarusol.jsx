@@ -6,7 +6,7 @@ export default function TimerCarusol() {
     const [mins, setmins] = useState("")
     const [second, setsecound] = useState("")
     setInterval(() => {
-        let countDown= new Date("Jul 1 , 2024 23:59:59 ").getTime();
+        let countDown= new Date("Jul 1 , 2025 23:59:59 ").getTime();
         let difDays = countDown - new Date();
         let days = Math.floor( difDays / 1000 / 60 / 60 / 24 ) 
         setdays(days)
