@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Nova-shop/static/css/main.fdf9f73e.css",
-    "main.js": "/Nova-shop/static/js/main.53cb7aa1.js",
+    "main.css": "/Nova-shop/static/css/main.06b38882.css",
+    "main.js": "/Nova-shop/static/js/main.581045a1.js",
     "static/js/592.1ebcb85f.chunk.js": "/Nova-shop/static/js/592.1ebcb85f.chunk.js",
     "static/media/404 Error with a broken robot-amico.png": "/Nova-shop/static/media/404 Error with a broken robot-amico.0d9b603ea9d514248163.png",
     "static/media/Online wishes list-amico.png": "/Nova-shop/static/media/Online wishes list-amico.0cb536c63f86967b86d3.png",
@@ -16,12 +16,12 @@
     "static/media/slick.ttf": "/Nova-shop/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/Nova-shop/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/Nova-shop/index.html",
-    "main.fdf9f73e.css.map": "/Nova-shop/static/css/main.fdf9f73e.css.map",
-    "main.53cb7aa1.js.map": "/Nova-shop/static/js/main.53cb7aa1.js.map",
+    "main.06b38882.css.map": "/Nova-shop/static/css/main.06b38882.css.map",
+    "main.581045a1.js.map": "/Nova-shop/static/js/main.581045a1.js.map",
     "592.1ebcb85f.chunk.js.map": "/Nova-shop/static/js/592.1ebcb85f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fdf9f73e.css",
-    "static/js/main.53cb7aa1.js"
+    "static/css/main.06b38882.css",
+    "static/js/main.581045a1.js"
   ]
 }
